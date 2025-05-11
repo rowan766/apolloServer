@@ -163,7 +163,7 @@ async function callAI(
       result = await callOpenAI(
         messages, 
         env.OPENAI_API_KEY, 
-        model || env.DEFAULT_MODEL || 'gpt-3.5-turbo'
+        model || env.DEFAULT_MODEL || 'deepseek-chat'
       );
     }
     
