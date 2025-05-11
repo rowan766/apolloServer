@@ -2,6 +2,7 @@
   "name": "graphql-yoga-cloudflare-workers",
   "description": "Fully-featured, simple to set up, performant and extendable GraphQL server",
   "version": "0.2.0",
+  "packageManager": "pnpm@9.10.0",
   "private": true,
   "scripts": {
     "deploy": "wrangler deploy",
@@ -15,7 +16,7 @@
   },
   "devDependencies": {
     "@cloudflare/vitest-pool-workers": "0.6.8",
-    "@cloudflare/workers-types": "^4.20250124.3",
+    "@cloudflare/workers-types": "^4.20250510.0",
     "@types/service-worker-mock": "2.0.4",
     "service-worker-mock": "2.0.5",
     "typescript": "5.7.3",
