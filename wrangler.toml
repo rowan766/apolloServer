@@ -2,6 +2,10 @@ name = "yoga-server"
 main = "src/index.ts"
 compatibility_date = "2023-12-01"
 
+routes = [
+  { pattern = "*saw.ink/graphql*", zone_id = "7711a636e02748e6623a73de3d919dc5" }
+]
+
 # 公开的配置
 [vars]
 ENVIRONMENT = "production"
